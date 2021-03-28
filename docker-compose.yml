@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+
+  calc-ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80" # host port : container port
+    container_name: calc-ui-container

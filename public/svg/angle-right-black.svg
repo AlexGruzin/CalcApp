@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="40px" viewBox="0 0 41 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>540952A2-B94E-4CE5-B4FC-87F73EC1F44F</title>
+    <defs>
+        <path d="M9.08707298,8.29192547 L3.22682453,14.6273292 C2.82177795,15.0652174 2.16680901,15.0652174 1.76607143,14.6273292 L0.792236025,13.5745342 C0.387189441,13.136646 0.387189441,12.4285714 0.792236025,11.9953416 L4.94611801,7.50465839 L0.792236025,3.01397516 C0.387189441,2.57608696 0.387189441,1.86801242 0.792236025,1.43478261 L1.76176242,0.372670807 C2.16680901,-0.0652173913 2.82177795,-0.0652173913 3.22251553,0.372670807 L9.08276398,6.70807453 C9.49211957,7.14596273 9.49211957,7.85403727 9.08707298,8.29192547 L9.08707298,8.29192547 Z" id="path-1"></path>
+    </defs>
+    <g id="Settings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Calc-Settings-date-picker" transform="translate(-784.000000, -888.000000)">
+            <g id="Store-Details" transform="translate(172.000000, 611.000000)">
+                <g id="date-field" transform="translate(376.000000, 228.000000)">
+                    <g id="Group-3" transform="translate(17.000000, 49.000000)">
+                        <g id="Next-month" transform="translate(219.000000, 0.000000)">
+                            <rect id="background" x="0.5" y="0" width="40" height="40"></rect>
+                            <g id="icon-/-navigation-/-chevron-/-up-/-16" transform="translate(15.100000, 12.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Mask"></g>
+                                <g id="🎨-color" mask="url(#mask-2)" fill="#525252">
+                                    <g transform="translate(-2.000000, 0.000000)" id="Black">
+                                        <rect x="0" y="0" width="13.875" height="15"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

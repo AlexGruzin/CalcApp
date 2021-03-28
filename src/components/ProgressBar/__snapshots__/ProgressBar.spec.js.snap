@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CampaignsTable tests Check snapshots of CampaignsTable are equal. 1`] = `
+<DocumentFragment>
+  <div
+    class="progress-bar__border"
+  >
+    <div
+      class="progress-bar__wrapper"
+      style="width: 0%;"
+    >
+      <h6
+        class="progress-bar__label"
+      />
+      <div
+        class="progress-bar__bar"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

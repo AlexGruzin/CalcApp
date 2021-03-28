@@ -1,0 +1,135 @@
+@import "~styles/generic.less";
+
+.settings-pg {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: var(--grey200);
+}
+
+.settings-pg__content {
+  display: flex;
+  padding: var(--space-x7);
+}
+
+.settings-pg__sets-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 800px;
+  flex-grow: 1.5;
+}
+
+.settings-pg__general-block,
+.settings-pg__store-block,
+.settings-pg__team-block,
+.settings-pg__connect-block,
+.settings-pg__note-block {
+  margin-bottom: var(--space-x6);
+}
+
+.settings-pg__tips-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 370px;
+  flex-shrink: 0;
+  flex-grow: 1;
+  margin-left: var(--space-x7);
+}
+
+.settings-pg__tip-block {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-x8);
+  background: var(--white);
+  border-radius: 18px;
+  margin-bottom: var(--space-x4);
+}
+
+.settings-pg__row {
+  display: flex;
+  margin-top: var(--space-x6);
+  align-items: flex-end;
+}
+
+.settings-pg__row label {
+  .montserrat-bold();
+  font-size: var(--fontSize-tiny);
+  letter-spacing: 0.25px;
+}
+
+.settings-pg__row input {
+  height: 28px;
+  border-radius: 30px;
+  border: 1px solid var(--border-grey);
+  margin-top: var(--space-x3);
+}
+
+.settings-pg__row .custom-input {
+  margin-right: var(--space-x6);
+}
+
+.custom-button.settings-pg__undo-change {
+  height: 35px;
+  width: unset;
+  border-radius: 18px;
+  text-decoration: underline;
+  background-color: var(--white);
+  color: var(--font-purple);
+}
+
+.settings-pg__tip-block h3 {
+  .montserrat-bold();
+  font-size: var(--fontSize-large);
+  margin: 0;
+  margin-left: 7px;
+}
+
+.settings-pg__tip-block div {
+  display: flex;
+  align-items: flex-end;
+}
+
+.settings-pg__many-stores {
+  .montserrat-regular();
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  margin: var(--space-x4) 0;
+}
+
+.custom-button.settings-pg__learn-more {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-self: flex-end;
+  background: var(--white);
+  color: var(--font-black);
+}
+
+/* ---------- Store ----------- */
+
+.settings-pg__store-block .custom-block__body {
+  flex-direction: row;
+}
+
+.settings-pg__store-block .custom-block__footer {
+  justify-content: flex-end;
+}
+
+.note-form__buttons {
+  display: flex;
+  align-items: center;
+  margin-top: var(--space-x7);
+}
+
+.settings-pg__general-save-btn {
+  height: var(--space-x7);
+  min-height: var(--space-x7);
+  width: 162px;
+  border-radius: 18px;
+  background-color: var(--button-purple);
+  text-transform: capitalize;
+  margin: 0 0 0 var(--space-x5);
+}

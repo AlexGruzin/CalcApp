@@ -1,0 +1,44 @@
+.custom-toggle[type="checkbox"]{
+  position: relative;
+  height: 15px;
+  width: 30px;
+  min-width: 30px;
+  -webkit-appearance: none;
+  background: var(--grey300);
+  outline: none;
+  border-radius: 15px;
+  transition: .2s;
+  border: 1px solid var(--grey);
+  cursor: pointer;
+}
+
+.custom-toggle-wrapper {
+  display: flex;
+}
+
+.custom-toggle-label {
+  font-family: "MontserratBold", sans-serif;
+  letter-spacing: 0.25px;
+  font-size: var(--fontSize-tiny);
+}
+
+.custom-toggle:checked[type="checkbox"]{
+  background: var(--purple);
+}
+
+.custom-toggle[type="checkbox"]:before{
+  content: '';
+  position: absolute;
+  height: 11px;
+  width: 11px;
+  border-radius: 10px;
+  top: 1px;
+  left: 1px;
+  background: #fff;
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+.custom-toggle:checked[type="checkbox"]:before{
+  left: 16px;
+}

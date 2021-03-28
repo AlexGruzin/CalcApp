@@ -1,0 +1,55 @@
+@import "~styles/generic.less";
+
+.welcome-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: var(--grey100);
+}
+
+.welcome-p__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  padding: var(--space-x8);
+  border-radius: 7px;
+  background: var(--white);
+  border: 1px solid var(--grey200);
+}
+
+.welcome-p__welcome-word {
+  display: flex;
+  align-items: baseline;
+  margin: 0 0 var(--space-x9) 0;
+  .montserrat-bold();
+}
+
+.welcome-p__welcome-word:after {
+  content: " ";
+  display: block;
+  background: var(--purple);
+  height: 8px;
+  width: 8px;
+  border-radius: 4px;
+  margin: 0 3px;
+}
+
+.welcome-p__description {
+  text-align: center;
+  padding: 0 90px;
+  text-indent: 13px;
+}
+
+.welcome-p__go-btn {
+  height: 35px;
+  min-height: 35px;
+  width: 172px;
+  border-radius: 18px;
+  background-color: var(--button-purple);
+  text-transform: capitalize;
+  margin-top: var(--space-x10);
+}
+

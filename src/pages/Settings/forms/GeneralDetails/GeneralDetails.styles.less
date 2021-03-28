@@ -1,0 +1,70 @@
+@import "~styles/generic.less";
+
+.general-details {
+  margin-top: var(--space-x5);
+}
+
+.general-details__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.general-details__first-name input,
+.general-details__last-name input,
+.general-details__email input,
+.general-details__phone input {
+  height: 28px;
+  width: 245px;
+  text-align: left;
+  padding-left: var(--space-x7);
+  border-radius: var(--space-x6);
+  border: 1px solid var(--border-grey);
+  margin-bottom: 23px;
+}
+
+.general-details__last-name {
+  margin-left: var(--space-x5);
+}
+
+.custom-button.general-details__reset-psw {
+  height: var(--space-x7);
+  width: unset;
+  border-radius: 18px;
+  text-decoration: underline;
+  background-color: var(--white);
+  color: var(--font-purple);
+  margin-left: var(--space-x5);
+}
+
+.general-details label {
+  .montserrat-bold();
+  font-size: var(--fontSize-tiny);
+  letter-spacing: 0.25px;
+}
+
+.general-details__save-btn {
+  height: var(--space-x7);
+  min-height: var(--space-x7);
+  width: 162px;
+  border-radius: 18px;
+  background-color: var(--button-purple);
+  text-transform: capitalize;
+  margin: 0 0 0 var(--space-x5);
+}
+
+.custom-button.general-details__undo-change {
+  height: var(--space-x7);
+  width: unset;
+  border-radius: 18px;
+  text-decoration: underline;
+  background-color: var(--white);
+  color: var(--font-purple);
+}
+
+.general-details__actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: var(--space-x5);
+}

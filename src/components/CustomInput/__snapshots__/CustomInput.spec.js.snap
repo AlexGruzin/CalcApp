@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomInput tests Check snapshots of CustomInput with value are equal. 1`] = `
+<DocumentFragment>
+  <div
+    class="custom-input"
+  >
+    <input
+      aria-label=""
+      id=""
+      name=""
+      type="text"
+      value="test"
+    />
+    <div
+      class="custom-input__error"
+    />
+  </div>
+</DocumentFragment>
+`;

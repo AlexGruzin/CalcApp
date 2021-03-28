@@ -1,0 +1,51 @@
+{
+  "title": "Audit Dashboard",
+  "seeHow": "See how you’ve been doing, and what",
+  "weCanImprove": "we can improve",
+  "weTookALook": "We took a look at your current marketing strategy, and here’s what we found!",
+  "seeMore": "See More",
+  "lastYear": {
+    "title": "Last year’s Advertising Spend",
+    "revenueTitle": "Last Year’s Revenue"
+  },
+  "paying": {
+    "title": "How much are you paying?",
+    "averageCostPerClick": "Average Cost Per Click",
+    "averageAdQualityScore": "Average Ad Quality Score",
+    "weCanLowerYourCost": "We can lower your cost per click by raising your ad quality score."
+  },
+  "money": {
+    "title": "Where is your money going?",
+    "paidSearch": "Paid Search",
+    "affiliate": "Affiliate",
+    "emailCartAbandonment": "Email & Cart Abandonment",
+    "displayPaidSocial": "Display - RT - Paid Social"
+  },
+  "revenue": {
+    "title": "Where does your revenue come from?"
+  },
+  "customers": {
+    "title": "Where are your customers?",
+    "city": "City",
+    "revenue": "Revenue"
+  },
+  "products": {
+    "title": "Who is buying your products?"
+  },
+  "improve": {
+    "title": "What can we improve?",
+    "increaseAudience": "Goal: Increase Audience Size",
+    "increaseAudienceDescr": "In order for social media marketing to work, you need an audience. Otherwise it’s like talking to a brick wall. By increasing your reach, we can increase your revenue.",
+    "increaseCustomer": "Goal: Increase Customer Value",
+    "increaseCustomerDescr": "Customer lifetime value (CLV) is one of the key stats to track as part of a customer experience program. CLV is a measurement of how valuable a customer is to your company, not just on a purchase-by-purchase basis but across the whole relationship.",
+    "decreaseMarketing": "Goal: Decrease Marketing Spend",
+    "decreaseMarketingDescr": "You’re spending a lot money on your marketing right now. We can more efficiently manage your spend, which results in a higher margin.",
+    "nextStep": "Next step: Planning"
+  },
+  "keyword": {
+    "title": "Keyword Efficacy",
+    "spend": "Spend",
+    "keyword": "Keyword",
+    "volume": "Volume"
+  }
+}

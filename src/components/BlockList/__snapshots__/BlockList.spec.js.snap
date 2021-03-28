@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockList tests Check snapshots of BlockList are equal. 1`] = `
+<DocumentFragment>
+  <div
+    class="block-list"
+  >
+    <div
+      class="block-list__item GOOGLE_ADS"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="block-list__indicator"
+      >
+        Connected
+      </div>
+      <div>
+        <img
+          alt="Shopify logo"
+          class="block-list__item-inner"
+          src="/images/g-ads-logo.png"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

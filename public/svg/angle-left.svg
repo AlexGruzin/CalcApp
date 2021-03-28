@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="20px" viewBox="0 0 14 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>5C8EBD1E-53D6-4A52-A5D4-A8601B05F927</title>
+    <defs>
+        <path d="M12.9813665,11.0559006 L4.53416149,19.5031056 C3.95031056,20.0869565 3.00621118,20.0869565 2.42857143,19.5031056 L1.02484472,18.0993789 C0.440993789,17.515528 0.440993789,16.5714286 1.02484472,15.9937888 L7.01242236,10.0062112 L1.02484472,4.01863354 C0.440993789,3.43478261 0.440993789,2.49068323 1.02484472,1.91304348 L2.42236025,0.49689441 C3.00621118,-0.0869565217 3.95031056,-0.0869565217 4.52795031,0.49689441 L12.9751553,8.94409938 C13.5652174,9.52795031 13.5652174,10.4720497 12.9813665,11.0559006 L12.9813665,11.0559006 Z" id="path-1"></path>
+    </defs>
+    <g id="Signup-Login-PassReset" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-Calc-HiFi-sign-up" transform="translate(-837.000000, -660.000000)">
+            <g id="Content-slider" transform="translate(652.000000, 247.000000)">
+                <g id="Slider-Controls" transform="translate(182.000000, 413.000000)">
+                    <g id="Solid/angle-right-Copy" transform="translate(10.000000, 10.000000) scale(-1, 1) translate(-10.000000, -10.000000) translate(3.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <g id="🎨-color" mask="url(#mask-2)" fill="#FFFFFF">
+                            <g transform="translate(-3.000000, 0.000000)" id="Black">
+                                <rect x="0" y="0" width="20" height="20"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

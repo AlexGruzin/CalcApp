@@ -1,0 +1,41 @@
+@import "~styles/generic.less";
+@import "./Dasboard-card.styles.less";
+@import "./Dashboard-chart.styles.less";
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: var(--grey200);
+}
+
+.dashboard__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard__warning-block {
+  margin-top: var(--space-x5);
+  margin-bottom: var(--space-x6);
+  padding: 0 var(--space-x6);
+}
+
+.dashboard__setup-column {
+  width: 100%;
+  padding: var(--space-x2);
+  border-radius: 15px;
+  background: var(--white);
+}
+
+.dashboard__performance {
+  width: 900px;
+  margin: 0 auto var(--space-x6);
+}
+
+.dashboard__block {
+  padding: var(--space-x6);
+
+  &.grey {
+    background: var(--grey100);
+  }
+}

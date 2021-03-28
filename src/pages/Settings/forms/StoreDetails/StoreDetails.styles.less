@@ -1,0 +1,67 @@
+@import "~styles/generic.less";
+
+.str-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.str-details__row {
+  display: flex;
+  flex-direction: row;
+}
+
+.str-details__info h4 {
+  .montserrat-bold();
+  font-size: var(--fontSize-tiny);
+  letter-spacing: 0.25px;
+  margin-top: var(--space-x5);
+  margin-bottom: var(--space-x1);
+}
+
+.str-details__info p {
+  .montserrat-medium();
+}
+
+.str-details__info .str-details__email {
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--purple);
+}
+
+.str-details__store-sets {
+  display: flex;
+  flex-direction: column;
+  padding-left: var(--space-x10);
+  margin: 0 auto;
+}
+
+.str-details__store-sets > div {
+  margin-top: var(--space-x4);
+}
+
+.str-details__actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: var(--space-x7);
+}
+
+.str-details__general-save-btn {
+  height: var(--space-x7);
+  min-height: var(--space-x7);
+  width: 162px;
+  border-radius: 18px;
+  background-color: var(--button-purple);
+  text-transform: capitalize;
+  margin: 0 0 0 var(--space-x5);
+}
+
+.custom-button.str-details__undo-change {
+  height: var(--space-x7);
+  width: unset;
+  border-radius: 18px;
+  text-decoration: underline;
+  background-color: var(--white);
+  color: var(--font-purple);
+}

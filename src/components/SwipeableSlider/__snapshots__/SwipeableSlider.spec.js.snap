@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwipeableSlider tests Check snapshots of SwipeableSlider are equal. 1`] = `
+<DocumentFragment>
+  <div
+    class="slider"
+  >
+    <div
+      class="enhanced-swipeable-views"
+      style="overflow-x: hidden;"
+    >
+      <div
+        class="react-swipeable-view-container"
+        style="flex-direction: row; transition: all 0s ease 0s; direction: ltr; display: flex; will-change: transform;"
+      >
+        <div
+          aria-hidden="false"
+          data-swipeable="true"
+          style="width: 100%; flex-shrink: 0; overflow: auto;"
+        >
+          <div
+            class="slide"
+          >
+            <div
+              class="slide__image"
+              style="background-image: url(/images/slide1.png);"
+            />
+            <h4
+              class="slide__title"
+            >
+              We’ll help you plan and show you how to get there.
+            </h4>
+            <p
+              class="slide__description"
+            >
+              By connecting with your Storefront and Analytics, we can help you create a plan for the next year — And will give you the steps to get there.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="indicators-wrapper"
+    >
+      <div
+        class="slider__left-click"
+        role="button"
+        tabindex="0"
+      >
+        <img
+          alt="angle-left"
+          src="/svg/angle-left.svg"
+        />
+      </div>
+      <div
+        class="indicator-button"
+      >
+        <div
+          class="indicator activated"
+        />
+      </div>
+      <div
+        class="indicator-button"
+      >
+        <div
+          class="indicator deactivated"
+        />
+      </div>
+      <div
+        class="indicator-button"
+      >
+        <div
+          class="indicator deactivated"
+        />
+      </div>
+      <div
+        class="slider__right-click"
+        role="button"
+        tabindex="0"
+      >
+        <img
+          alt="angle-right"
+          src="/svg/angle-left.svg"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

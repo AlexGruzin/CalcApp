@@ -1,0 +1,22 @@
+{
+  "action": {
+    "submit": "Submit",
+    "skip": "Skip"
+  },
+  "industry": {
+    "apparel": "Apparel and accessories",
+    "books": "Books, music, video",
+    "computer": "Computer and consumer electronics",
+    "toys": "Toys and hobby",
+    "office": "Office equipment and supplies",
+    "furniture": "Furniture and home furnishings",
+    "health": "Health, personal care, beauty",
+    "auto": "Auto and parts",
+    "food": "Food and beverage",
+    "other": "Other"
+  },
+  "brandName": "Brand name (optional)",
+  "typeSlogans": "Type in your slogans",
+  "typeKeywords": "Type in the keywords that best describe your products",
+  "selectIndustry": "Select your industry"
+}

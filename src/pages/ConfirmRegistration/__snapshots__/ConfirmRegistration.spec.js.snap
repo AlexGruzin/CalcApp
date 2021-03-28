@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmRegistration tests Check snapshots of ConfirmRegistration are equal. 1`] = `
+<DocumentFragment>
+  <div
+    class="confirm-reg"
+  >
+    <div
+      class="spinner"
+    >
+      <div
+        class="circle__Wrapper-sc-16bbsoy-0 dpSNSD"
+        color="#fff"
+        size="24"
+      />
+    </div>
+    <div
+      class="confirm-reg__text"
+    >
+      confirm:registration.processing
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalendarInput tests Check snapshots of CalendarInput are equal. 1`] = `
+<DocumentFragment>
+  <div
+    class="calendar-input"
+  >
+    <div
+      class="calendar-input__inner"
+    >
+      <img
+        alt="calendar-svg"
+        role="button"
+        src="/svg/calendar.svg"
+      />
+      <div
+        class="date-picker__wrapper"
+      >
+        <div
+          class="react-datepicker-wrapper"
+        >
+          <div
+            class="react-datepicker__input-container"
+          >
+            <input
+              class="custom-date-picker__input"
+              name=""
+              placeholder=""
+              type="text"
+              value="17/12/1995"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,38 @@
+.calendar-input .withLabel.calendar-input__inner {
+  margin-top: var(--space-x3);
+}
+
+.calendar-input label {
+  font-family: "MontserratBold", sans-serif;
+  letter-spacing: 0.25px;
+  font-size: var(--fontSize-tiny);
+}
+
+.calendar-input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.calendar-input__inner {
+  display: flex;
+  align-items: center;
+}
+
+.calendar-input__inner > img {
+  position: absolute;
+  right: var(--space-x2);
+  z-index: 2;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.calendar-input__text {
+  display: flex;
+  max-width: 200px;
+  flex-direction: column;
+}
+
+.calendar-input .custom-date-picker__input {
+  padding-left: var(--space-x7);
+}

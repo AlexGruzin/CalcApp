@@ -1,0 +1,77 @@
+@import "~styles/generic.less";
+
+.auth-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.auth-page__logo {
+  .calc-logo();
+}
+
+.auth-page__content {
+  display: flex;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+.auth-page__form-block {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  min-width: 420px;
+  max-width: 520px;
+}
+
+.auth-page__form-block form {
+  min-height: 480px;
+  height: 480px;
+  min-width: 400px;
+  width: 380px;
+  max-width: 380px;
+  background-color: var(--white);
+}
+
+.auth-page__data-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.auth-page__learn-btn {
+  height: 35px;
+  min-height: 35px;
+  width: 134px;
+  border: 2px solid #FFFFFF;
+  border-radius: 18px;
+  background-color: var(--button-purple);
+  color: white;
+  text-transform: capitalize;
+}
+
+.auth-page__slider {
+  margin-bottom: var(--space-x6);
+}
+
+.auth-page__form-block--animated form * {
+  animation: fadeForm 0.32s ease-in-out;
+};
+
+@-webkit-keyframes fadeForm {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0.3;
+  }
+  100%{
+    opacity: 1;
+  }
+}

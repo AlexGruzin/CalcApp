@@ -1,0 +1,27 @@
+.custom-button {
+  cursor: pointer;
+  width: 142px;
+  height: 25px;
+  border: 2px solid transparent;
+  font-family: "MontserratMedium", sans-serif;
+  color: var(--white);
+  font-size: var(--fontSize-tiny);
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.custom-button.isDisabled {
+  background: var(--grey300);
+}
+
+.custom-button:focus,.custom-button:active {
+  box-shadow: none;
+  outline: 0;
+  border: 2px solid var(--outline-default);
+}
+
+.custom-button {
+  &_blue {
+    background: var(--blue-dark);
+  }
+}

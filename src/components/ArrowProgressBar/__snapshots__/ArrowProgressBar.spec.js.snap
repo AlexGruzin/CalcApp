@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArrowProgressBar tests Check snapshots of ArrowProgressBar are equal. 1`] = `
+<DocumentFragment>
+  <div
+    class="arrow-bar"
+  >
+    <div
+      class="arrow-bar__item"
+      style="z-index: 3;"
+    >
+      <div
+        class="arrow-bar__number"
+      >
+        1
+      </div>
+      <div
+        class="arrow-bar__content"
+      >
+        <div
+          class="arrow-bar__label"
+        >
+          Step 1
+        </div>
+        <div
+          class="arrow-bar__description"
+        >
+          Connect to our Catalogue
+        </div>
+      </div>
+    </div>
+    <div
+      class="arrow-bar__item"
+      style="z-index: 2;"
+    >
+      <div
+        class="arrow-bar__number"
+      >
+        2
+      </div>
+      <div
+        class="arrow-bar__content"
+      >
+        <div
+          class="arrow-bar__label"
+        >
+          Step 2
+        </div>
+        <div
+          class="arrow-bar__description"
+        >
+          Connect to our Analytics
+        </div>
+      </div>
+    </div>
+    <div
+      class="arrow-bar__item"
+      style="z-index: 1;"
+    >
+      <div
+        class="arrow-bar__number"
+      >
+        3
+      </div>
+      <div
+        class="arrow-bar__content"
+      >
+        <div
+          class="arrow-bar__label"
+        >
+          Step 3
+        </div>
+        <div
+          class="arrow-bar__description"
+        >
+          Connect to our Channels
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

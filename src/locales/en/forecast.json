@@ -1,0 +1,42 @@
+{
+  "durationOptions": {
+    "next12Month": "Next 12 months",
+    "next6Month": "Next 6 months",
+    "next3Month": "Next 3 months"
+  },
+  "downloadOptions": {
+    "downloadFor": "Download Forecast"
+  },
+  "letSetup": "Let’s Setup Your Forecast!",
+  "doIt": "Let’s Do it",
+  "howFar": "How far out are we planning for?",
+  "goalRevenue": "Goal Revenue",
+  "adBudget": "Advertising Budget",
+  "projectMargin": "Project Margin",
+  "chartDescription": "We set up the following plan for the next 12 months based on your previous history, catalog, and connected channels. Feel free to play with the forecast till it feels right.",
+  "download": "Download",
+  "growth": {
+    "aggressive": "Aggressive",
+    "topModelText": "We will focus at the top of the funnel, which feels risky, but results in higher quality customers",
+    "moderate": "Moderate",
+    "middleModelText": "We will focus an equal amount on all parts of the funnel",
+    "conservative": "Conservative",
+    "bottomModelText": "We’ll maximize spend on the customers you already have"
+  },
+  "moderate": {
+    "top": "Top, of Funnel",
+    "awareness": "Awareness",
+    "topText": "focuses on brand awareness, generating interest, and educating first time visitors",
+
+    "middle": "Middle of Funnel",
+    "consideration": "Consideration",
+    "middleText": "speak directly to potential customers who are evaluating your brand and products",
+
+    "bottom": "Bottom of Funnel",
+    "Conversion": "Conversion",
+    "bottomText": "new and returning customers make purchases"
+  }
+
+
+
+}

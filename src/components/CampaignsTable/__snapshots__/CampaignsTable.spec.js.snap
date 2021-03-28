@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CampaignsTable tests Check snapshots of CampaignsTable are equal. 1`] = `
+<DocumentFragment>
+  <div
+    class="table-cmp"
+  >
+    <div
+      class="table-cmp__description-row"
+    >
+      <div
+        class="table-cmp__label description"
+      >
+        <span>
+          Campaign
+        </span>
+      </div>
+      <div
+        class="table-cmp__type description"
+      >
+        <span>
+          Type
+        </span>
+      </div>
+      <div
+        class="table-cmp__part description"
+      >
+        <span>
+          Part of the Funnel
+        </span>
+      </div>
+      <div
+        class="table-cmp__status description"
+      >
+        <span>
+          Status
+        </span>
+      </div>
+      <div
+        class="table-cmp__spend description"
+      >
+        <span>
+          Spend
+        </span>
+      </div>
+      <div
+        class="table-cmp__roas description"
+      >
+        <span>
+          ROAS
+        </span>
+      </div>
+    </div>
+    <div
+      class="table-cmp__row"
+    >
+      <div
+        class="table-cmp__label item"
+      >
+        <span>
+          Brand Loyalty
+        </span>
+      </div>
+      <div
+        class="table-cmp__type item"
+      >
+        <span>
+          Evergreen
+        </span>
+      </div>
+      <div
+        class="table-cmp__part item"
+      >
+        <div
+          class="able-cmp__parts"
+        >
+          <span
+            class="Awareness"
+          >
+            Awareness
+          </span>
+          <span
+            class="Consideration"
+          >
+            Consideration
+          </span>
+        </div>
+      </div>
+      <div
+        class="table-cmp__status item"
+      >
+        <span>
+          active
+        </span>
+      </div>
+      <div
+        class="table-cmp__spend item"
+      >
+        <span>
+          $XXX.XX
+        </span>
+      </div>
+      <div
+        class="table-cmp__roas item"
+      >
+        <span>
+          $XXX.XX
+        </span>
+      </div>
+    </div>
+    <div
+      class="table-cmp__row"
+    >
+      <div
+        class="table-cmp__label item"
+      >
+        <span>
+          Category Awareness
+        </span>
+      </div>
+      <div
+        class="table-cmp__type item"
+      >
+        <span>
+          Evergreen
+        </span>
+      </div>
+      <div
+        class="table-cmp__part item"
+      >
+        <div
+          class="able-cmp__parts"
+        >
+          <span
+            class="Awareness"
+          >
+            Awareness
+          </span>
+          <span
+            class="Consideration"
+          >
+            Consideration
+          </span>
+        </div>
+      </div>
+      <div
+        class="table-cmp__status item"
+      >
+        <span>
+          inactive
+        </span>
+      </div>
+      <div
+        class="table-cmp__spend item"
+      >
+        <span>
+          $XXX.XX
+        </span>
+      </div>
+      <div
+        class="table-cmp__roas item"
+      >
+        <span>
+          $XXX.XX
+        </span>
+      </div>
+    </div>
+    <div
+      class="table-cmp__row"
+    >
+      <div
+        class="table-cmp__label item"
+      >
+        <span>
+          Smart Shopping
+        </span>
+      </div>
+      <div
+        class="table-cmp__type item"
+      >
+        <span>
+          Evergreen
+        </span>
+      </div>
+      <div
+        class="table-cmp__part item"
+      >
+        <div
+          class="able-cmp__parts"
+        >
+          <span
+            class="Awareness"
+          >
+            Awareness
+          </span>
+          <span
+            class="Consideration"
+          >
+            Consideration
+          </span>
+        </div>
+      </div>
+      <div
+        class="table-cmp__status item"
+      >
+        <span>
+          inactive
+        </span>
+      </div>
+      <div
+        class="table-cmp__spend item"
+      >
+        <span>
+          $XXX.XX
+        </span>
+      </div>
+      <div
+        class="table-cmp__roas item"
+      >
+        <span>
+          $XXX.XX
+        </span>
+      </div>
+    </div>
+    <div
+      class="table-cmp__row"
+    >
+      <div
+        class="table-cmp__label item"
+      >
+        <span>
+          Competition
+        </span>
+      </div>
+      <div
+        class="table-cmp__type item"
+      >
+        <span>
+          Evergreen
+        </span>
+      </div>
+      <div
+        class="table-cmp__part item"
+      >
+        <div
+          class="able-cmp__parts"
+        >
+          <span
+            class="Awareness"
+          >
+            Awareness
+          </span>
+          <span
+            class="Consideration"
+          >
+            Consideration
+          </span>
+        </div>
+      </div>
+      <div
+        class="table-cmp__status item"
+      >
+        <span>
+          inactive
+        </span>
+      </div>
+      <div
+        class="table-cmp__spend item"
+      >
+        <span>
+          $XXX.XX
+        </span>
+      </div>
+      <div
+        class="table-cmp__roas item"
+      >
+        <span>
+          $XXX.XX
+        </span>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

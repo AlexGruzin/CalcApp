@@ -1,0 +1,49 @@
+@import "~styles/generic.less";
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: 50px;
+  max-height: 50px;
+  background: var(--grey200);
+  padding: var(--space-x5);
+  padding-bottom: 0;
+}
+
+.header__inner {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header__label {
+  display: flex;
+  .montserrat-bold();
+  font-size: 20px;
+  margin: auto var(--space-x1);
+}
+
+.header__brand {
+  display: flex;
+  .montserrat-medium();
+  font-size: var(--fontSize-superTiny);
+  margin: var(--space-x2) var(--space-x1);
+}
+
+.header__line {
+  width: 100%;
+  height: 1px;
+  background: var(--white);
+  border: 0;
+  border-radius: 1px;
+  margin: 0;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}

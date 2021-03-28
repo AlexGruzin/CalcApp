@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorMessage tests Check snapshots of ErrorMessage are equal. 1`] = `
+<DocumentFragment>
+  <div
+    class="custom-error error-wrp"
+  >
+    <img
+      alt="error icon"
+      class="error-wrp__icon"
+      src="/svg/angle-left.svg"
+    />
+    <div
+      class="error-wrp__content"
+    >
+      Custom error
+    </div>
+  </div>
+</DocumentFragment>
+`;

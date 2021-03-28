@@ -1,0 +1,60 @@
+@import "~styles/generic.less";
+
+.edit-modal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 400px;
+  height: 200px;
+  margin: auto auto;
+  background: var(--white);
+  border-radius: 13px;
+  border: 1px solid var(--grey200);
+  position: absolute;
+  top: var(--space-x8);
+  left: var(--space-x8);
+  right: var(--space-x8);
+  bottom: var(--space-x8);
+  background: var(--white);
+  overflow: auto;
+  padding: var(--space-x4);
+}
+
+.edit-modal__overlay {
+  align-items: center;
+}
+
+.builder-pg__modal input {
+  height: 36px;
+  width: 294px;
+  text-align: center;
+  border-radius: var(--space-x6);
+  border: 1px solid var(--border-grey);
+}
+
+.edit-modal__submit {
+  align-self: flex-end;
+  height: var(--space-x7);
+  min-height: var(--space-x7);
+  width: 162px;
+  border-radius: 18px;
+  background-color: var(--button-purple);
+  text-transform: capitalize;
+  margin: var(--space-x4) auto;
+}
+
+.edit-modal__input {
+  margin-top: var(--space-x7);
+}
+
+.edit-modal__input label {
+  .montserrat-medium();
+}
+
+.edit-modal__input input {
+  height: 36px;
+  width: 294px;
+  text-align: center;
+  border-radius: var(--space-x6);
+  border: 1px solid var(--border-grey);
+}

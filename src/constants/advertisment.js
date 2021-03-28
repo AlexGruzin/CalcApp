@@ -1,0 +1,24 @@
+export const ADVERT = {
+  CORDIAL: 'CORDIAL',
+  FACEBOOK: 'FACEBOOK',
+  GOOGLE_ADS: 'GOOGLE_ADS',
+  GOOGlE_ANALYTICS: 'GOOGLE_ANALYTICS',
+  INSTAGRAM: 'INSTAGRAM',
+  KLAVIYO: 'KLAVIYO',
+  TIKTOK: 'TIKTOK',
+  TWITTER: 'TWITTER',
+  SHOPIFY: 'SHOPIFY',
+  SHOPIFY_SIGNUP: 'SHOPIFY_SIGNUP',
+};
+
+export const SOCIAL = {
+  ENVELOPE: 'ENVELOPE',
+  BITMAP: 'BITMAP',
+};
+
+export const ADVERT_ICONS = {
+  [ADVERT.FACEBOOK]: 'facebook.png',
+  [ADVERT.INSTAGRAM]: 'instagram.png',
+  [SOCIAL.ENVELOPE]: 'envelope.png',
+  [SOCIAL.BITMAP]: 'bitmap.png',
+};

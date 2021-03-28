@@ -1,0 +1,113 @@
+@import "~styles/generic.less";
+
+.campaigns {
+  display: flex;
+  flex-direction: column;
+}
+
+.campaigns__container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: var(--space-x2);
+}
+
+.campaigns__card {
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  border-radius: 13px;
+  height: 249px;
+  width: 283px;
+  margin-right: var(--space-x4);
+  margin-bottom: var(--space-x5);
+}
+
+.campaigns__label-row {
+  display: flex;
+  align-items: center;
+  max-height: 54px;
+  border-bottom: 1px solid var(--grey100);
+}
+.campaigns__label-row h3 {
+  .montserrat-bold();
+  font-size: 15px;
+  letter-spacing: 0.27px;
+}
+
+.campaigns__label-row img {
+  margin-left: 7px;
+}
+
+.campaigns__describe-row p {
+  .montserrat-regular();
+  letter-spacing: 0.25px;
+  margin: 0;
+}
+
+.campaigns__describe-row {
+  display: flex;
+  max-height: 82px;
+  height: 82px;
+  padding: var(--space-x4) var(--space-x7);
+}
+
+.campaigns__suggest-row {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 0 var(--space-x7);
+  padding-bottom: var(--space-x3);
+}
+
+.campaigns__icons-row {
+  display: flex;
+  margin: auto 0;
+}
+
+.campaigns__suggest-row img {
+  height: 20px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.campaigns__suggest-row h3 {
+  display: flex;
+  .montserrat-medium();
+  color: var(--font-black);
+  font-size: var(--fontSize-tiny);
+  letter-spacing: 0.25px;
+  margin: 0;
+}
+
+.campaigns__status-block {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+
+.campaigns__indicator {
+  width: 9px;
+  height: 9px;
+  margin-bottom: 2px;
+  border-radius: 50%;
+  border: 1px solid var(--grey);
+}
+
+.campaigns__indicator.isActive:nth-child(1) {
+  background: var(--purple);
+  border-color: var(--purple);
+}
+
+.campaigns__indicator.isActive:nth-child(2) {
+  background: var(--turquoise);
+  border-color: var(--turquoise);
+}
+
+.campaigns__indicator.isActive:nth-child(3) {
+  background: var(--blue-dark);
+  border-color: var(--blue-dark);
+}
+
+.campaigns__indicator:last-child {
+  margin-bottom: 0;
+}

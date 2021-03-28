@@ -1,0 +1,87 @@
+@import "~styles/generic.less";
+
+.timezone-picker.withLabel .custom-timezone-picker__control {
+  margin-top: var(--space-x3);
+}
+
+.timezone-picker .custom-timezone-picker__control {
+  height: 36px;
+  border-radius: 21px;
+  transition: all 0ms;
+}
+
+.timezone-picker .custom-timezone-picker__control:hover {
+  border: 1px solid var(--border-grey);
+}
+
+.timezone-picker .custom-timezone-picker__control--menu-is-open:hover {
+  border-color: var(--border-grey);
+  border-width: 1px;
+  border-bottom-color: var(--white);
+}
+
+.timezone-picker .custom-timezone-picker__control--is-focused {
+  border: 1px solid var(--border-grey);
+  box-shadow: none;
+}
+
+.timezone-picker .custom-timezone-picker__option--is-selected {
+  background-color: var(--grey200);
+}
+
+.timezone-picker .custom-timezone-picker__option {
+  color: var(--font-black);
+  padding: 12px 22px;
+}
+
+.timezone-picker .custom-timezone-picker__option:hover {
+  background-color: var(--grey100);
+}
+
+.timezone-picker .custom-timezone-picker__menu {
+  top: calc(100% - 1px);
+  overflow: hidden;
+  margin-bottom: 0;
+  margin-top: 0;
+  box-shadow: none;
+  border: 1px solid var(--border-grey);
+  border-top: none;
+  border-radius: 0 0 21px 21px;
+}
+
+.timezone-picker .custom-timezone-picker__control--menu-is-open {
+  border-width: 1px;
+  border-bottom-color: var(--white);
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.timezone-picker .custom-timezone-picker__control--menu-is-open,
+.timezone-picker .custom-timezone-picker__menu {
+  box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+.timezone-picker .custom-timezone-picker__indicator.custom-timezone-picker__dropdown-indicator {
+  color: var(--purple)
+}
+
+.timezone-picker .custom-timezone-picker__indicator-separator  {
+  display: none;
+}
+
+.timezone-picker .custom-timezone-picker__single-value {
+  .montserrat-medium();
+  max-width: calc(100% - 23px);
+  text-overflow: ellipsis;
+}
+
+.timezone-picker .custom-timezone-picker__value-container {
+  .montserrat-medium();
+  padding-left: var(--space-x4);
+}
+
+.timezone-picker label {
+  font-family: "MontserratBold", sans-serif;
+  letter-spacing: 0.25px;
+  font-size: var(--fontSize-tiny);
+}

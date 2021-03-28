@@ -1,0 +1,30 @@
+{
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "address": "Email Address",
+  "phone": "Phone Number (Optional)",
+  "resetPassword": "Reset Password",
+  "undoChanges": "Undo Changes",
+  "saveChanges": "Save Changes",
+  "manyStores": "Many stores accidentally run ads for products that are out of stock! This frustrates many shoppers and sales are lost. The NogBots can automagically make sure that shoppers will only see ads for items that they can and will want to buy.",
+  "calendarOptions": {
+    "standard": "Standard Human Calendar"
+  },
+  "storeDetails": {
+    "marketCalendar": "Marketing Calendar"
+  },
+  "team": {
+    "add": "Add Team Member",
+    "new": "Type new member email"
+  },
+  "noteForm": {
+    "campaignStarted": "Campaign started",
+    "campaignEnded": "Campaign ended",
+    "infoNeed": "Information needed",
+    "newConnect": "New Connection",
+    "lostConnect": "Lost Connection",
+    "revenueSpent": "30% of revenue spent",
+    "amountSpent": "Max dollar amount spent",
+    "roas": "Max ROAS (not spending enough)"
+  }
+}

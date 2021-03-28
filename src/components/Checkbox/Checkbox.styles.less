@@ -1,0 +1,31 @@
+
+.custom-checkbox {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.custom-checkbox__label-text {
+  margin-top: 1px;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.custom-checkbox__label-text:after {
+  content: url("data:image/svg+xml,%3C%3Fxml");
+  position: absolute;
+  left: 0;
+  width: 18px;
+}
+
+.custom-checkbox__sublabel-text {
+  font-style: italic;
+  line-height: 1.4;
+  opacity: 0.7;
+}
+
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+}

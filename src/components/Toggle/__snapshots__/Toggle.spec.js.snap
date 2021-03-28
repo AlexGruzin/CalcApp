@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toggle tests Check snapshots of Toggle are equal. 1`] = `
+<DocumentFragment>
+  <div
+    class="custom-toggle-wrapper"
+  >
+    <label
+      class="custom-toggle-label"
+      for="name"
+    >
+      custom
+    </label>
+    <input
+      checked=""
+      class="custom-toggle"
+      id="name"
+      name="name"
+      type="checkbox"
+    />
+  </div>
+</DocumentFragment>
+`;

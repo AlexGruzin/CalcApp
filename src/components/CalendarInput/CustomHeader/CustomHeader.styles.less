@@ -1,0 +1,31 @@
+@import "~styles/generic.less";
+
+.custom-date-picker-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.custom-date-picker-header__left.custom-button, .custom-date-picker-header__right.custom-button {
+  width: 41px;
+  height: 41px;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.custom-date-picker-header .custom-date-picker-header__right {
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.custom-date-picker-header .custom-date-picker-header__left {
+  cursor: pointer;
+  margin-left: 20px;
+  transform: rotateY(180deg);
+}
+
+.custom-date-picker-header > h4 {
+  .montserrat-medium();
+}

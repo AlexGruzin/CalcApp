@@ -1,0 +1,68 @@
+@import "~styles/generic.less";
+
+.settings-pg__connect-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: var(--space-x5);
+}
+
+.connections_block__item {
+  display: flex;
+  height: 76px;
+  width: 322px;
+  padding: var(--space-x2);
+  border-radius: 13px;
+  background-color: var(--grey100);
+  margin-right: var(--space-x4);
+  margin-bottom: var(--space-x4);
+}
+
+.connections_block__logo {
+  display: flex;
+  height: 28px;
+}
+
+.connections__item-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: var(--space-x3);
+}
+
+.connections__item-text h6 {
+  font-size: var(--fontSize-superbTiny);
+  margin: 0;
+  margin-top: var(--space-x3);
+}
+
+.connections__item-text p {
+  color: var(--font-purple);
+  text-decoration: underline;
+}
+
+.connections__item-icons {
+  cursor: pointer;
+  display: flex;
+  align-self: flex-start;
+  margin-left: auto;
+}
+
+.connections_block__plus-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--grey);
+  border-radius: 13px;
+  background: var(--white);
+}
+
+.connections_block__plus-item p,.connections_block__plus-item img {
+  margin: var(--space-x3);
+}
+
+.connections__item-icons button {
+  width: var(--space-x7);
+  height: var(--space-x7);
+  .clear-button();
+}

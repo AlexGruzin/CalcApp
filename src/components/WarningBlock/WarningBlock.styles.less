@@ -1,0 +1,27 @@
+@import "~styles/generic.less";
+
+.warning-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  padding: var(--space-x3);
+  border-radius: 15px;
+  background: var(--white);
+  font-size: var(--fontSize-superTiny);
+
+  & > div {
+    display: flex;
+    align-items: center;
+  }
+
+  &__info-svg {
+    margin-right: var(--space-x2);
+  }
+
+  &__btn button {
+    margin-left: var(--space-x3);
+    font-size: var(--fontSize-ultraTiny);
+    border-radius: 15px;
+  }
+}

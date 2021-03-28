@@ -1,0 +1,58 @@
+@import "~styles/generic.less";
+
+.confirm-user {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirm-user__logo {
+  .calc-logo();
+}
+
+.confirm-user__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+.confirm-user__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--space-x2);
+  width: 390px;
+  min-width: 390px;
+  max-width: 390px;
+  height: 397px;
+  max-height: 397px;
+  min-height: 397px;
+  background-color: var(--white);
+  border-radius: 13px;
+}
+
+.confirm-user__field input {
+  height: 36px;
+  width: 294px;
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid var(--border-grey);
+  margin-bottom: 23px;
+}
+
+.confirm-user__submit {
+  height: 35px;
+  min-height: 35px;
+  width: 162px;
+  border-radius: 18px;
+  background-color: var(--button-purple);
+  text-transform: capitalize;
+  margin-bottom: var(--space-x3);
+}

@@ -1,0 +1,106 @@
+@import "~styles/generic.less";
+
+.table-cmp {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-cmp__description-row {
+  display: flex;
+  align-items: center;
+  background: var(--purple);
+  height: 35px;
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: var(--space-x3);
+}
+
+.table-cmp__description-row span {
+  .montserrat-regular();
+  color: white;
+}
+
+.table-cmp__row {
+  align-items: center;
+  display: flex;
+  background: var(--white);
+  height: 35px;
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: var(--space-x3);
+  cursor: pointer;
+}
+
+.table-cmp__row:hover {
+  background-color: rgba(200, 35, 176, 0.1);
+}
+
+.table-cmp__row span {
+}
+
+.table-cmp__label {
+  width: 25%;
+}
+
+.table-cmp__type {
+  width: 10%;
+}
+
+.table-cmp__part {
+  width: 35%;
+}
+
+.table-cmp__status {
+  width: 10%;
+}
+
+.table-cmp__spend {
+  width: 10%;
+}
+
+.table-cmp__roas {
+  width: 10%;
+}
+
+.table-cmp__row .table-cmp__label.item > span {
+  .montserrat-bold();
+  font-size: 14px;
+  color: var(--grey700);
+}
+
+.table-cmp__row .item span {
+  .montserrat-medium();
+  font-size: 13px;
+}
+
+.table-cmp__label > span {
+  margin-left: 40px;
+}
+
+.able-cmp__parts {
+  display: flex;
+}
+
+.able-cmp__parts > span {
+  display: flex;
+  align-items: center;
+  margin-left: var(--space-x2);
+}
+
+.able-cmp__parts > span:before {
+  content: " ";
+  display: inline-flex;
+
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin: 0 var(--space-x2);
+}
+
+.able-cmp__parts > span.Awareness:before {
+  background: var(--purple);
+}
+
+.able-cmp__parts > span.Awareness:before {
+  background: var(--turquoise);
+}

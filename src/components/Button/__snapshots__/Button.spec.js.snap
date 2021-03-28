@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider tests Check snapshots of Slider are equal. 1`] = `
+<DocumentFragment>
+  <button
+    class="custom-button"
+    type="button"
+    value=""
+  >
+    title
+  </button>
+</DocumentFragment>
+`;

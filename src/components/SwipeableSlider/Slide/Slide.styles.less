@@ -1,0 +1,36 @@
+@import "~styles/generic.less";
+
+.slide {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  height: 408px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.slide__image {
+  margin: 0;
+  width: 100%;
+  height: 230px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.slide__title {
+  color: var(--white);
+  font-family: "MontserratBold", sans-serif;
+  font-size: 21px;
+  margin-top: var(--space-x10);
+  margin-bottom: 0;
+}
+
+.slide__description {
+  .montserrat-medium();
+  color: var(--white);
+  max-width: 550px;
+  text-align: center;
+}

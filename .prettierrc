@@ -1,0 +1,6 @@
+bracketSpacing: true
+trailingComma: "all"
+singleQuote: true
+arrowParens: "avoid"
+parser: "babel"
+printWidth: 100

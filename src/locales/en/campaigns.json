@@ -1,0 +1,51 @@
+{
+  "campaignType": {
+    "all": "All",
+    "evergreen": "Evergreen",
+    "holiday": "Holiday",
+    "custom": "Custom"
+  },
+  "funnel": {
+    "all": "All",
+    "awareness": "Awareness",
+    "consideration": "Consideration",
+    "conversion": "Conversion"
+  },
+  "status": {
+    "all": "All",
+    "active": "Active",
+    "inactive": "Inactive",
+    "draft": "Draft",
+    "archived": "Archived"
+  },
+  "title": "The dewy decimal system is to books as",
+  "pinkTitle": "campaigns are to ads.",
+  "campaigns": "Campaigns",
+  "schedule": "Campaign Schedule",
+  "filterBy": "Filter by",
+  "dateRangeLabel": "Date Range",
+  "campaignTypeLabel": "Campaign Type",
+  "funnelLabel": "Funnel",
+  "statusLabel": "Status",
+  "live": "Live Campaigns are Live!",
+  "orderByTitle": "Order By",
+  "orderBy": {
+    "az": "A-Z",
+    "za": "Z-A",
+    "newestFirst": "NewestFirst",
+    "longestRunningFirst": "LongestRunningFirst",
+    "mostProfitableFirst": "MostProfitableFirst",
+    "leastProfitableFirst": "LeastProfitableFirst"
+  },
+  "table": {
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "holiday": "Holiday",
+    "campaign": "Campaign",
+    "type": "Type",
+    "LYRevenue": "LY Revenue",
+    "goalRevenue": "Goal Revenue",
+    "LYSpend": "LY Spend",
+    "spendBudget": "Spend Budget"
+  }
+}

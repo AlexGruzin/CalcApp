@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WarningBlock tests Check snapshots of WarningBlock are equal. 1`] = `
+<DocumentFragment>
+  <div
+    class="warning-block"
+  >
+    <div
+      class="warning-block__info"
+    >
+      <img
+        alt="info-svg"
+        class="warning-block__info-svg"
+        src="/svg/warning.svg"
+      />
+    </div>
+    <div
+      class="warning-block__btn"
+    />
+  </div>
+</DocumentFragment>
+`;

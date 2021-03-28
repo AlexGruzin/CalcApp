@@ -1,0 +1,21 @@
+{
+  "dashboard": "Dashboard",
+  "oh": "Uh oh!",
+  "attention": "campaigns need your attention.",
+  "quick": "Quick, hop to it!",
+  "goToCampaign": "Go To Campaign Page",
+  "performanceForecast": "Your Performance vs Your Forecast",
+  "revenue": "By Revenue",
+  "campaign": "By Campaign",
+  "channel": "By Channel",
+  "dateRangeLabel": "Date Range",
+  "editForecast": "Edit Forecast",
+  "noChannels": "No channels connected",
+  "spendRevenue": "Spend & Revenue",
+  "overallPerformance": "Overall Performance",
+  "channelPerformance": "Channel Performance",
+  "campaignPerformance": "Campaign Performance",
+  "channelReport": "Channel Report",
+  "campaignReport": "Campaign Report",
+  "nextMonth": "Next Month’s Campaigns"
+}

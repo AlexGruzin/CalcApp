@@ -1,0 +1,125 @@
+@import "~styles/generic.less";
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--space-x2);
+  border-radius: 13px;
+}
+
+.signup-form__login-user {
+  margin-bottom: 60px;
+  .montserrat-medium();
+}
+
+.signup-form__login-link {
+  margin-left: 4px;
+  text-transform: capitalize;
+  color: var(--purple);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.signup-form__email input,
+.signup-form__password input {
+  height: 36px;
+  width: 294px;
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid var(--border-grey);
+  margin-bottom: 23px;
+}
+
+.signup-form__welcome {
+  display: flex;
+  align-items: baseline;
+  margin: var(--space-x6) 0 var(--space-x9) 0;
+  .montserrat-bold();
+  color: var(--font-black);
+}
+
+.signup-form__submit {
+  height: 35px;
+  min-height: 35px;
+  width: 162px;
+  border-radius: 18px;
+  background-color: var(--button-purple);
+  text-transform: capitalize;
+  margin-bottom: var(--space-x3);
+}
+
+.signup-form__welcome:after {
+  content: " ";
+  display: block;
+  background: var(--purple);
+  height: 8px;
+  width: 8px;
+  border-radius: 4px;
+  margin: 0 3px;
+}
+
+.signup-form__description {
+  margin: 0;
+  margin-bottom: var(--space-x5);
+  .montserrat-medium();
+}
+
+.signup-form__terms {
+  word-wrap: break-word;
+  max-width: 290px;
+  margin-top: auto;
+  line-height: 16px;
+  .montserrat-terms();
+}
+
+.signup-form__terms a {
+  color: var(--blue);
+}
+
+.signup-form__error {
+  height: 11px;
+  min-height: 11px;
+  margin: 0;
+  margin-bottom: var(--space-x3);
+  .montserrat-medium();
+  color: var(--error-color);
+  font-size: var(--fontSize-superbTiny);
+  letter-spacing: 0.18px;
+}
+
+.signup-form__success-block {
+  padding: var(--space-x8);
+}
+
+.signup-form__success-block h5 {
+  margin-left: var(--space-x4);
+}
+
+.signup-form__success-line.email {
+  font-style: italic;
+  font-size: var(--fontSize-tiny);
+}
+
+.signup-form__success-line {
+  margin: 0;
+  margin-bottom: var(--space-x5);
+  .montserrat-medium();
+  font-size: var(--fontSize);
+}
+
+.signup-form__success-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: var(--space-x9);
+}
+
+.signup-form__success-link {
+  text-transform: capitalize;
+  cursor: pointer;
+  text-decoration: underline;
+  .montserrat-medium();
+  .clear-button();
+  color: var(--purple);
+}

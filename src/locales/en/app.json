@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "audit": "Audit",
+    "labaratory": "Labaratory",
+    "forecast": "Forecast",
+    "campaigns": "Campaigns",
+    "connections": "Connections",
+    "settings": "Settings"
+  },
+  "error": {
+    "unknown": "Unknown error"
+  },
+  "logout": "Log out"
+}

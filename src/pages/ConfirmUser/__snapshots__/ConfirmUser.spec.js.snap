@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmUser tests Check snapshots of ConfirmUser are equal. 1`] = `
+<DocumentFragment>
+  <div
+    class="confirm-user"
+  >
+    <img
+      alt="Calc logo"
+      class="confirm-user__logo"
+      src="/svg/logo.svg"
+    />
+    <div
+      class="confirm-user__content"
+    >
+      <form
+        class="confirm-user__form"
+        name="confirm-user-form"
+      >
+        <div
+          class="confirm-user__field custom-input"
+        >
+          <input
+            aria-label="email"
+            disabled=""
+            id="email"
+            name="email"
+            type="email"
+            value=""
+          />
+          <div
+            class="custom-input__error"
+          />
+        </div>
+        <div
+          class="confirm-user__field custom-input"
+        >
+          <input
+            aria-label="password"
+            id="password"
+            name="password"
+            placeholder="confirm:user.password"
+            required=""
+            type="password"
+          />
+          <div
+            class="custom-input__error"
+          />
+        </div>
+        <div
+          class="confirm-user__field custom-input"
+        >
+          <input
+            aria-label="firstName"
+            id="firstName"
+            name="firstName"
+            placeholder="confirm:user.firstName"
+            type="text"
+          />
+          <div
+            class="custom-input__error"
+          />
+        </div>
+        <div
+          class="confirm-user__field custom-input"
+        >
+          <input
+            aria-label="lastName"
+            id="lastName"
+            name="lastName"
+            placeholder="confirm:user.lastName"
+            type="text"
+          />
+          <div
+            class="custom-input__error"
+          />
+        </div>
+        <button
+          class="custom-button confirm-user__submit"
+          type="submit"
+          value=""
+        >
+          confirm:user.confirm
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

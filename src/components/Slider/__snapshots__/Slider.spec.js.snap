@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider tests Check snapshots of Slider are equal. 1`] = `
+<DocumentFragment>
+  <div
+    class="range-slider"
+  >
+    <div
+      class="range-slider__rotator"
+    >
+      <input
+        class="range-slider__range"
+        max="100"
+        min="0"
+        step="1"
+        type="range"
+        value="50"
+      />
+      <span
+        class="slider-bar"
+      >
+        <span
+          class="slider-bar__styled"
+          style="width: 132px;"
+        />
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slide tests Check snapshots of Slide are equal. 1`] = `
+<DocumentFragment>
+  <div
+    class="slide"
+  >
+    <div
+      class="slide__image"
+      style="background-image: url(/images//image);"
+    />
+    <h4
+      class="slide__title"
+    >
+      title
+    </h4>
+    <p
+      class="slide__description"
+    >
+      description
+    </p>
+  </div>
+</DocumentFragment>
+`;

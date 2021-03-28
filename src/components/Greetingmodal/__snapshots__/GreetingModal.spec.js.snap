@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GreetingModal tests Check snapshots of GreetingModal are equal. 1`] = `
+<DocumentFragment>
+  <div
+    class="greet-ml"
+  >
+    <h1
+      class="greet-ml__hey"
+    >
+      Hey There
+    </h1>
+    <p
+      class="greet-ml__description"
+    >
+      Welcome to the club!
+    </p>
+    <button
+      class="custom-button greet-ml__tour"
+      type="button"
+      value=""
+    >
+      Take a site tour
+    </button>
+    <button
+      class="custom-button greet-ml__store"
+      type="button"
+      value=""
+    >
+      Take Store Survey
+    </button>
+  </div>
+</DocumentFragment>
+`;

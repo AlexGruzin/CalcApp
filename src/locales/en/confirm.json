@@ -1,0 +1,23 @@
+{
+  "connection": {
+    "processing": "Processing connection..."
+  },
+  "email": {
+    "processing": "Confirming Email Change..."
+  },
+  "registration": {
+    "processing": "Confirming Registration..."
+  },
+  "reset": {
+    "password": "New password",
+    "confirm": "Confirm"
+  },
+  "user": {
+    "password": "Password",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "confirm": "Confirm"
+  },
+  "success": "success",
+  "error": "error"
+}

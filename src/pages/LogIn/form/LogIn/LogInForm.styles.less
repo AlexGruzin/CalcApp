@@ -1,0 +1,100 @@
+@import "~styles/generic.less";
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--space-x2);
+  border-radius: 13px;
+}
+
+.login-form__forgot-password {
+  margin-bottom: var(--space-x2);
+  .montserrat-medium();
+}
+
+.login-form__new-user {
+  margin-bottom: var(--space-x5);
+  .montserrat-medium();
+}
+
+.login-form__signup-link {
+  margin-left: 4px;
+  text-transform: capitalize;
+  color: var(--purple);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.login-form__email input,
+.login-form__password input {
+  height: 36px;
+  width: 294px;
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid var(--border-grey);
+  margin-bottom: 23px;
+}
+
+.login-form__forgot-link {
+  margin-left: 4px;
+  text-transform: capitalize;
+  color: var(--purple);
+}
+
+.login-form__welcome {
+  display: flex;
+  align-items: baseline;
+  margin: var(--space-x6) 0 var(--space-x9) 0;
+  .montserrat-bold();
+}
+
+.login-form__submit {
+  height: 35px;
+  min-height: 35px;
+  width: 162px;
+  border-radius: 18px;
+  background-color: var(--button-purple);
+  text-transform: capitalize;
+  margin-bottom: var(--space-x3);
+}
+
+.login-form__welcome:after {
+  content: " ";
+  display: block;
+  background: var(--purple);
+  height: 8px;
+  width: 8px;
+  border-radius: 4px;
+  margin: 0 3px;
+}
+
+.login-form__description {
+  margin: 0;
+  margin-bottom: var(--space-x5);
+  .montserrat-medium();
+}
+
+.login-form__terms {
+  word-wrap: break-word;
+  max-width: 290px;
+  margin-top: auto;
+  line-height: 16px;
+  .montserrat-terms();
+}
+
+.login-form__terms a {
+  color: var(--blue);
+}
+
+.login-form__error {
+  height: 11px;
+  min-height: 11px;
+  margin: 0;
+  margin-bottom: var(--space-x3);
+  .montserrat-medium();
+  color: var(--error-color);
+  font-size: var(--fontSize-superbTiny);
+  letter-spacing: 0.18px;
+}

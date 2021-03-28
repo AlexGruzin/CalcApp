@@ -1,0 +1,88 @@
+@import "~@csstools/normalize.css"; /* bring in normalize.css styles */
+@import "~@csstools/normalize.css/opinionated.css";
+@import "./generic.less";
+@import "./colors.less";
+@import "./fonts.less";
+@import "./sizes.less";
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url("/images/Bg-img.jpg");
+  background-origin: content-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+  background-attachment: fixed;
+}
+body {
+  min-height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  display: flex;
+}
+
+body.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+.ReactModal__Content:focus,.ReactModal__Content:active {
+  outline: none;
+}
+
+#root {
+  .montserrat-medium();
+  display: flex;
+  flex-direction: row;
+  min-height: 100%;
+  position: relative;
+  flex-grow: 1;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+}
+
+button {
+  cursor: pointer;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 calc(var(--space-x3) * -1) var(--space-x10);
+
+  &_two {
+    .columns__item {
+      width: 50%;
+    }
+  }
+
+  &_four {
+    .columns__item {
+      width: 25%;
+    }
+  }
+
+  &_eight {
+    margin: 0 calc(var(--space-x1) * -1) var(--space-x10);
+
+    .columns__item {
+      width: 12.5%;
+      padding: 0 var(--space-x1);
+    }
+  }
+
+  &__item {
+    padding: 0 var(--space-x3);
+    box-sizing: border-box;
+  }
+}
